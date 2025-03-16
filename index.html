@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário com intuito de aprendizado em HTML">
+    <title>Formulário web</title>
+</head>
+<body>
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2>TESTE SEUS CONHECIMENTOS</h2><br>
+        </section>
+        <!--Pergunta 1: Multipla escolha "radio buttom"-->
+        <section>
+            <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas web?</h2>
+            <form id="p1">
+                <input type="radio" name="Pergunta1"id="p1a" value="Python">
+                <label for="p1a">Python</label><br>
+                <input type ="radio" name ="Pergunta1" id="p1b" value="React">
+                <label for="p1b">React</label><br>
+                <input type="radio" name="Pergunta1" id="p1c" value="HTML">
+                <label for="p1c">HTML</label><br>
+                <input type="radio" name="Pergunta1" id="p1d" value="Java">
+                <label for="p1d">Java</label><br>
+            </form>
+        </section>
+        <!--Pergunta 2: Caixa de texto "text type"-->
+        <section>
+            <form id="p2">
+                <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ___________</h2>
+                <input type="text" name="Pergunta2" id="p2" placeholder="Digite aqui a sua resposta">
+            </form>
+        </section>
+        <!--Pergunta 3: Password-->
+        <section>
+            <h2>Pergunta 3:O que é uma senha considerada "forte" Escreva um exemplo de senha forte. </h2>
+            <input type="password" placeholder="Digite uma senha" name="Pergunta3" id="p3">
+        </section>
+        <!--Pergunta 4: Formato de data-->
+        <section>
+            <h2>Pergunta 4: Em que ano HTML lançou sua primeira versão?</h2>
+            <input type="date" name="Pergunta4" id="p4">
+        </section>
+        <!--Pergunta 5: Seleção multipla com checkbox-->
+        <section>
+            <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+            <form id="p5">
+                <input type="checkbox" name ="Pergunta5" id="p5a" value="JavaScript">
+                <label for="p5a">JavaScript</label><br>
+                <input type="checkbox" name= ="Pergunta5" id="p5b" value="JSON">
+                <label for="p5b">JSON</label><br>
+                <input type="checkbox" name= ="Pergunta5" id="p5c" value="C++">
+                <label for="p5c">C++</label><br>
+                <input type="checkbox" name= ="Pergunta5" id="p5b" value="HTML">
+                <label for="p5d">HTML</label><br>
+            </form>
+        </section>
+        <!--Pergunta 6: Upload de arquivo-->
+        <section>
+            <h2>Pergunta 6: Faça um upload de um arquivo contendo um código HTML</h2>
+            <form>
+                <input type="file" id="p6" name="Pergunta6">
+            </form>
+        </section>
+        <!--Pergunta 7: Menu suspenso-->
+        <section>
+            <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo: </h2>
+            <form>
+                <select name="Pergunta7" id="p7">
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="name">name</option>
+                    <option value="placeholder">placeholder</option>
+
+                </select>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
